@@ -29,3 +29,7 @@
 ### study05
 
 引入Mysql数据库，引入Jpa管理数据库，使用Hibernate自动建表。
+
+### study06
+
+使用Jpa对数据库进行增加、删除、修改和查询，全部使用`JpaRepository`接口的方法实现。

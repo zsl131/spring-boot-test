@@ -65,3 +65,6 @@
 2. 封装筛选功能及新增几个工具类
 3. 通过封装解决多条件测试数据筛选功能
 
+### [study11](http://www.zslin.com/web/article/detail/21)
+
+使用Scheduled做定时任务

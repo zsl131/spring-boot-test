@@ -85,3 +85,10 @@ JavaMailSender发送电子邮件
 + 配置路径信息
 + 通过文件上传方式测试路径是否生效
 + 通过浏览器方式验证能否访问路径中的文件
+
+### [study14](http://www.zslin.com/web/article/detail/28)
+
+  POI导出Word文件
+
++ 使用POI导出Word文件
++ 模板文件放在`classpath`中的导出实现

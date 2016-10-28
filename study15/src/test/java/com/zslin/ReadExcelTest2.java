@@ -20,7 +20,7 @@ import java.util.List;
  */
 @SpringBootTest
 @RunWith(SpringRunner.class)
-public class ReadExcelTest {
+public class ReadExcelTest2 {
 
     //读取单个单元格
     @Test

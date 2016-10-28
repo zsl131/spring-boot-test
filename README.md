@@ -98,3 +98,11 @@ JavaMailSender发送电子邮件
   POI对Excel的读取操作
 
 + 使用POI读取Excel文件
+
+### [study16](http://www.zslin.com/web/article/detail/30)
+
+  POI导出Excel文件
+
++ 使用POI导出Excel文件
++ 自动生成表结构
++ 自动替换常量属性

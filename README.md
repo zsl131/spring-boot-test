@@ -92,3 +92,9 @@ JavaMailSender发送电子邮件
 
 + 使用POI导出Word文件
 + 模板文件放在`classpath`中的导出实现
+
+### [study15](http://www.zslin.com/web/article/detail/29)
+
+  POI对Excel的读取操作
+
++ 使用POI读取Excel文件

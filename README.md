@@ -106,3 +106,7 @@ JavaMailSender发送电子邮件
 + 使用POI导出Excel文件
 + 自动生成表结构
 + 自动替换常量属性
+
+### [study17](http://www.zslin.com/web/article/detail/34)
+
+[Springboot](http://www.zslin.com/?cateId=3)+[Thymeleaf](http://www.zslin.com/?cateId=5)实现多文件上传

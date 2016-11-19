@@ -18,6 +18,7 @@ public class WebController {
 
     @RequestMapping(value = "index", method = RequestMethod.GET)
     public String index() {
+        System.out.println(msg);
         return "The Way 1 : " + msg;
     }
 
@@ -26,7 +27,7 @@ public class WebController {
 
     @RequestMapping(value = "index2", method = RequestMethod.GET)
     public String index2() {
-
+        System.out.println(env.getProperty("test.msg"));
         return "The Way 2 : " + env.getProperty("test.msg");
     }
 }

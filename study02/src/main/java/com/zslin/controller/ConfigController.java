@@ -4,7 +4,6 @@ import com.zslin.config.MyWebConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -20,6 +19,7 @@ public class ConfigController {
     @RequestMapping(value = "index", method = RequestMethod.GET)
     public String index() {
         return "webName: "+myWebConfig.getName()+", webVersion: "+
-                myWebConfig.getVersion()+", webAuthor: "+myWebConfig.getAuthor();
+                myWebConfig.getVersion()+", webAuthor: "+myWebConfig.getAuthor()+
+                ", title: "+myWebConfig.getTitle();
     }
 }

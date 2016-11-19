@@ -1,4 +1,4 @@
-# Springboot中读取配置文件
+# [Springboot中读取配置文件](http://www.zslin.com/web/article/detail/12)
 
 使用Controller的方式：
 

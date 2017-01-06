@@ -25,7 +25,7 @@ public class BaseSearch<T> implements Specification<T> {
     public static final String NOT_LIKE = "nlike"; //not like '%?%'
     public static final String NOT_LIKE_BEGIN_END = "nlikebe"; // not like '%?%'
     public static final String EQUAL = "eq"; //equal =
-    public static final String NOT_EQUAL = "neq"; // not equal   !=
+    public static final String NOT_EQUAL = "ne"; // not equal   !=
     public static final String IS_NULL = "isnull"; //is null
 
     private SearchDto criteria;

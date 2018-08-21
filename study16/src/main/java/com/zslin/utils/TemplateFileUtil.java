@@ -10,7 +10,11 @@ import java.io.FileNotFoundException;
  */
 public class TemplateFileUtil {
 
-    public static FileInputStream getTemplates(String tempName) throws FileNotFoundException {
-        return new FileInputStream(ResourceUtils.getFile("classpath:excel-templates/"+tempName));
+    public static FileInputStream getTemplateByClasspath(String templatePath) throws FileNotFoundException {
+        return new FileInputStream(ResourceUtils.getFile("classpath:excel-templates/" + templatePath));
+    }
+
+    public static FileInputStream getTemplateByPath(String templatePath) throws FileNotFoundException {
+        return new FileInputStream(ResourceUtils.getFile(templatePath));
     }
 }

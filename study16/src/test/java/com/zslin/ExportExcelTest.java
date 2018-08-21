@@ -25,13 +25,15 @@ public class ExportExcelTest {
         list.add(new WebDto("权限系统", "http://basic.zslin.com", "admin", "111111", 111));
         list.add(new WebDto("校园网", "http://school.zslin.com", "admin", "222222", 333));
 
-        Map<String, String> map = new HashMap<String, String>();
+        Map<String, String> map = new HashMap<>();
         map.put("title", "网站信息表");
-        map.put("total", list.size()+" 条");
+        map.put("total", list.size() + " 条");
         map.put("date", getDate());
 
-        ExcelUtil.getInstance().exportObj2ExcelByTemplate(map, "web-info-template.xls", new FileOutputStream("D:/temp/out.xls"),
-                list, WebDto.class, true);
+        String template = "web-info-template.xls";
+        FileOutputStream fos = new FileOutputStream("web-info-template-auto.xls");
+
+        ExcelUtil.getInstance().exportObj2ExcelByTemplate(map, template, fos, list, WebDto.class, true);
     }
 
     private String getDate() {

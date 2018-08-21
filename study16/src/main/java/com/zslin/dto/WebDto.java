@@ -7,19 +7,19 @@ import com.zslin.utils.ExcelResources;
  */
 public class WebDto {
 
-    //网站名称
+    // 网站名称
     private String name;
 
-    //网址
+    // 网址
     private String url;
 
-    //用户名
+    // 用户名
     private String username;
 
-    //密码
+    // 密码
     private String password;
 
-    //日均访问量
+    // 日均访问量
     private Integer readCount;
 
     public WebDto(String name, String url, String username, String password, Integer readCount) {
@@ -30,7 +30,8 @@ public class WebDto {
         this.readCount = readCount;
     }
 
-    public WebDto() {}
+    public WebDto() {
+    }
 
     @Override
     public String toString() {
@@ -43,7 +44,7 @@ public class WebDto {
                 '}';
     }
 
-    @ExcelResources(title="网站名称",order=1)
+    @ExcelResources(title = "网站名称", order = 1)
     public String getName() {
         return name;
     }
@@ -52,7 +53,7 @@ public class WebDto {
         this.name = name;
     }
 
-    @ExcelResources(title="网址",order=2)
+    @ExcelResources(title = "网址", order = 2)
     public String getUrl() {
         return url;
     }
@@ -61,7 +62,7 @@ public class WebDto {
         this.url = url;
     }
 
-    @ExcelResources(title="用户名",order=3)
+    @ExcelResources(title = "用户名", order = 3)
     public String getUsername() {
         return username;
     }
@@ -70,7 +71,7 @@ public class WebDto {
         this.username = username;
     }
 
-    @ExcelResources(title="密码",order=4)
+    @ExcelResources(title = "密码", order = 4)
     public String getPassword() {
         return password;
     }
@@ -79,7 +80,7 @@ public class WebDto {
         this.password = password;
     }
 
-    @ExcelResources(title="日均访问量",order=5)
+    @ExcelResources(title = "日均访问量", order = 5)
     public Integer getReadCount() {
         return readCount;
     }
